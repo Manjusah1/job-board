@@ -24,3 +24,5 @@ dist-ssr
 *.sw?
 
 DELIVERY_CHECKLIST.md
+.vercel
+.env*
