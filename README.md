@@ -21,7 +21,6 @@ It focuses on high-signal browsing with strong filters, skill-based match scorin
 Detailed documentation:
 - Product features: docs/FEATURES.md
 - Architecture choices: docs/ARCHITECTURE.md
-- Submission checklist: docs/DELIVERY_CHECKLIST.md
 
 ## Local Setup
 
@@ -51,7 +50,7 @@ Required GitHub repository secrets for deployment job:
 - VERCEL_ORG_ID
 - VERCEL_PROJECT_ID
 
-## Manual Steps You Need To Do
+## Deployment Instructions
 
 ### 1. Push code to GitHub
 
