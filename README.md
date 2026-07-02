@@ -79,9 +79,3 @@ git push -u origin main
 ### 4. Trigger production deployment
 - Push to main again, or run the CI-CD workflow manually from GitHub Actions.
 - The deploy-vercel job will publish the app.
-
-## Final Links To Submit
-- GitHub repository URL
-- Vercel production URL
-
-You can use docs/DELIVERY_CHECKLIST.md to track completion before submission.
