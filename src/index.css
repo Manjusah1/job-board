@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap');
+
+:root {
+  --bg: #fff9ef;
+  --bg-accent: #fff3dd;
+  --card: #fffcf6;
+  --text: #24211f;
+  --text-soft: #605a54;
+  --border: #e4d8c8;
+  --heading-font: 'Space Grotesk', 'Segoe UI', sans-serif;
+  --body-font: 'Chivo', 'Segoe UI', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--body-font);
+  color: var(--text);
+  background:
+    radial-gradient(circle at 20% 15%, #ffe2ac 0, transparent 35%),
+    radial-gradient(circle at 86% 8%, #ffcfbf 0, transparent 28%),
+    linear-gradient(180deg, var(--bg-accent) 0%, var(--bg) 46%, #fff 100%);
+}
+
+#root {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 1.25rem 1rem 2.5rem;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: var(--heading-font);
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: clamp(1.8rem, 3.7vw, 3rem);
+}
+
+p {
+  line-height: 1.45;
+}
