@@ -3,6 +3,8 @@
 Career Radar is a job board built with React, TypeScript, and Vite.
 It focuses on high-signal browsing with strong filters, skill-based match scoring, and practical UX details.
 
+![job-board-overview](docs/job-board-overview.png)
+
 ## Tech Stack
 - React 19
 - TypeScript
